@@ -1,6 +1,6 @@
 # IDdog Challenge for Frontend Developers
 
-<img src="media/id-dog.gif" />
+<img src="https://github.com/idwall/desafios-iddog/tree/master/frontend/media/id-dog.gif" />
 
 ## ✍️ Instructions
 
@@ -19,48 +19,6 @@
 
 ## 🙋‍ Help
 
-* Use [media](https://github.com/idwall/iddog/tree/master/media) as reference ([GIF](media/id-dog.gif) and 01-07 flow)
+* Use [media](https://github.com/idwall/desafios-iddog/tree/master/frontend/media) as reference ([GIF](https://github.com/idwall/desafios-iddog/tree/master/frontend/media/id-dog.gif) and 01-07 flow)
 * Use React and Redux
 * Create tests (components, actions, reducers etc)
-
-## 📃 API
-
-All endpoints live under the URL [`https://iddog-api.now.sh`](https://iddog-api.now.sh) and then generally follow the REST architecture.
-
-All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
-
-### POST /signup
-
-#### Signup a user
-
-```bash
-POST /signup
-```
-
-```bash
-curl "https://iddog-api.now.sh/signup" \
--H "Content-Type: application/json" \
--d '{ "email": "your@email.com" }'
-```
-
-### GET /feed
-
-#### List of dogs
-
-```bash
-GET /feed
-```
-
-```bash
-curl "https://iddog-api.now.sh/feed" \
--H "Authorization: $TOKEN" \
--H "Content-Type: application/json"
-```
-
-##### Queries
-
-##### ?category
-
-**Default**: `husky`<br/>
-**Type**: `string`<br/>
-**Options**: `husky`, `hound`, `pug`, `labrador`

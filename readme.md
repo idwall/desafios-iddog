@@ -2,7 +2,7 @@
 
 Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall para as vagas de frontend e mobile (se você é front, acesse a pastinha de frontend; se você é desenvolvedor mobile, acesse a pastinha mobile)
 
-Os requisitos mnimos para cada tipo de teste está em cada diretório. 
+Os requisitos mínimos para cada tipo de teste está no respectivo diretório. 
 
 Não há diferença de testes para diferentes níveis de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
 
@@ -15,6 +15,48 @@ Você deve criar um repositório para este projeto e fazer o *push* no seu próp
 Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, alterar/acrescentar um README com instruções de como executá-lo, melhrias de design, etc.
 
 **Obs.:** Você não deve fazer um Pull Request para este projeto!
+
+### 📃 Utilizar nossa API de cachorros :)
+
+Todos os endpoints tem como base [`https://iddog-api.now.sh`](https://iddog-api.now.sh) e seguem a arquitetura REST utilizando JSON.
+
+Todas as requisições devem ser encoded com Content-Type: application/json header. Pra todas as responses, incluindo erros, devem também utilizar REST com JSON.
+
+### POST /signup
+
+#### Sign/signup de usuário
+
+```bash
+POST /signup
+```
+
+```bash
+curl "https://iddog-api.now.sh/signup" \
+-H "Content-Type: application/json" \
+-d '{ "email": "your@email.com" }'
+```
+
+### GET /feed
+
+#### Listas de cachorros
+
+```bash
+GET /feed
+```
+
+```bash
+curl "https://iddog-api.now.sh/feed" \
+-H "Authorization: $TOKEN" \
+-H "Content-Type: application/json"
+```
+
+##### Queries
+
+##### ?category
+
+**Default**: `husky`<br/>
+**Type**: `string`<br/>
+**Options**: `husky`, `hound`, `pug`, `labrador`
 
 ## Carreira IDwall
 
