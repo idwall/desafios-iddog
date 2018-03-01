@@ -1,4 +1,4 @@
-# IDdog
+# IDdog Challenge for Frontend Developers
 
 <img src="media/id-dog.gif" />
 
