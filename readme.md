@@ -6,8 +6,8 @@ Os requisitos mnimos para cada tipo de teste está em cada diretório.
 
 Não há diferença de testes para diferentes níveis de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
 
-1. [Frontend](https://github.com/idwall/desafios-iddog/tree/master/frontned)
-2. [Mobile](https://github.com/idwall/desafios-iddog/tree/master/mobile)
+1. [Frontend](https://github.com/idwall/desafios-iddog/blob/master/frontend)
+2. [Mobile](https://github.com/idwall/desafios-iddog/blob/master/mobile)
 
 ## Como entregar estes desafios
 Você deve criar um repositório para este projeto e fazer o *push* no seu próprio repositório e enviar o link para _jobs@idwall.co_ ou para o email do recrutador, junto com seu LinkedIn atualizado.  
