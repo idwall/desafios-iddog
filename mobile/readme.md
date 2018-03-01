@@ -2,7 +2,7 @@
 
 Gif bellow is just for reference.
 
-<img src="media/id-dog.gif" />
+<img src="https://github.com/idwall/desafios-iddog/blob/master/frontend/media/id-dog.gif?raw=true" />
 
 ## ✍️ Instructions
 
