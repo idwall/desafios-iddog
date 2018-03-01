@@ -1,8 +1,8 @@
 # Desafios IDwall - iddog
 
-Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall para as vagas de frontend e mobile (se você é front, acesse a pastinha de frontend; se você é desenvolvedor mobie, acesse a pastinha mobile)
+Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall para as vagas de frontend e mobile (se você é front, acesse a pastinha de frontend; se você é desenvolvedor mobile, acesse a pastinha mobile)
 
-Escolha em qual linguagem irá implementar (a não ser que um de nossos colaboradores lhe instrua a utilizar uma linguagem específica).  
+Os requisitos mnimos para cada tipo de teste está em cada diretório. 
 
 Não há diferença de testes para diferentes níveis de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
 
