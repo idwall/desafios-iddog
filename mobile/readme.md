@@ -1,6 +1,6 @@
 # IDdog Challenge for Mobile (Android and iOS) Developers
 
-Gif bellow is just for reference.
+Gif bellow is just for reference. Build a mobile version of it.
 
 <img src="media/id-dog.gif" />
 
@@ -22,5 +22,5 @@ Gif bellow is just for reference.
 ## 🙋‍ Help
 
 * Use [media](https://github.com/idwall/desafios-iddog/tree/master/frontend/media) as reference ([GIF](https://github.com/idwall/desafios-iddog/tree/master/frontend/media/id-dog.gif) and 01-07 flow)
-* Use React and Redux
-* Create tests (components, actions, reducers etc)
+* Create documentation
+* Create tests
