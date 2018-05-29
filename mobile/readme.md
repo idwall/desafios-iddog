@@ -1,26 +1,30 @@
 # IDdog Challenge for Mobile (Android and iOS) Developers
 
-Gif bellow is just for reference. Build a mobile version of it.
+## Desafio
 
-<img src="https://github.com/idwall/desafios-iddog/blob/master/frontend/media/id-dog.gif?raw=true" />
+Crie um aplicativo para Android ou iOS com as seguintes características:
 
-## ✍️ Instructions
+* Criar uma tela de login onde o usuário precisa digitar um endereço de email válido.
+* Armazene localmente o token retornado pela API no login.
+* Após o login feito com sucesso, redirecione para uma tela onde deve conter as listas com as imagens
+* Crie uma forma para que o usuário possa navegar entre as quatro raças de cachorros (`husky`, `labrador`, `hound` e `pug`)
+* Ao clicar em uma imagem, ela deve ser exibida de forma expandida.
+* Faça cache das imagens
 
-* Create a `/signup` page with an email `input` to [signup a user](https://iddog-api.now.sh/signup) (only with email)
-* Store the returned `token` (local storage)
-* Redirect to `/feed`
-* On `/feed` it should [`GET /feed`](https://iddog-api.now.sh/feed)
-* Create a menu with 4 routes — `husky`, `labrador`, `hound` and `pug`
-* Each route should fetch data on [`GET /feed`](https://iddog-api.now.sh/feed)
-* After first fetch, cached the data so when you go back to the route you don't need to fetch it again
-* When you click on a photo, it should open the photo as (https://your-website.com/feed?category=Xid=Y)
-* When you refresh the page with a photo opened, it should remain on the photo screen
-* Deploy your app or send for us a way to see application live.
+Obs: [doc da API](https://github.com/idwall/desafios-iddog)
 
-**Ps:** You don't need to apply the same styles (CSS and animations) and you can improve it a lot :P 
+## Documentação
 
-## 🙋‍ Help
+* Faça um `README` documentando o que acha necessário e como executar o projeto.
+* Caso tenha desenvolvido para Android, disponibilize o `.apk` de uma forma que não precise executar o projeto para utilizar o app.
 
-* Use [media](https://github.com/idwall/desafios-iddog/tree/master/frontend/media) as reference ([GIF](https://github.com/idwall/desafios-iddog/tree/master/frontend/media/id-dog.gif) and 01-07 flow)
-* Create documentation
-* Create tests
+## Avaliação
+
+* Arquitetura utilizada
+* Legibilidade do código
+* Uso de libs*
+* Uso do git
+* Testes unitários/instrumentados
+* Tratamento de erros
+
+\* Utilizar libs ou não é válido em ambos os casos. Se tomou alguma decisão em usar ou não, pode deixar isso explicado no `README` se achar necessário.
