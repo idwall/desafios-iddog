@@ -22,21 +22,21 @@ Sinta-se livre, também, para adicionar funcionalidades à aplicação.
 
 ## Instruções
 
-Esperamos que você crie uma aplicação que capture os dados da [API do IDdog](https://iddog-api.now.sh), e apresente numa interface cumprindo os itens abaixo.
+Esperamos que você crie uma aplicação que capture os dados da [API do IDdog](https://api-iddog.idwall.co), e apresente numa interface cumprindo os itens abaixo.
 **Dica:** Utilize o GIF da introdução como inspiração para as interações e etapas do desafio. Mas não precisa aplicar o mesmo estilo, sinta-se livre para criar como quiser.
 
 ### Página de Signup
 
-* Crie uma página `/signup` com um campo de email, e autentique o usuário postando apenas seu email no [endpoint de autenticação](https://iddog-api.now.sh/signup).
+* Crie uma página `/signup` com um campo de email, e autentique o usuário postando apenas seu email no [endpoint de autenticação](https://api-iddog.idwall.co/signup).
 * A chamada na API retornará um `token` JWT, que deverá ser armazenado para ser utilizada nas chamadas seguintes.
 * Após receber e armazenar o `token`, redirecione para a página de `/feed`. 
 * A página de `/signup/` é a única página de acesso público. As demais rotas são todas privadas e requerem o envio do token [conforme a documentação da API](https://github.com/idwall/desafios-iddog)
 
 ### Página de Feed
 
-* No carregamento inicial da página de `/feed`, deverá ser feita uma chamada no [endpoint do feed](https://iddog-api.now.sh/feed).
+* No carregamento inicial da página de `/feed`, deverá ser feita uma chamada no [endpoint do feed](https://api-iddog.idwall.co/feed).
 * A página de `/feed` deverá ter um menu com quatro rotas - `husky`, `labrador`, `hound` e `pug`.
-* Cada rota, ao ser clicada, deve realizar uma chamada no [endpoint do feed](https://iddog-api.now.sh/feed), passando a respectiva `category`. Quando não especificada, a `category` default é `husky`.
+* Cada rota, ao ser clicada, deve realizar uma chamada no [endpoint do feed](https://api-iddog.idwall.co/feed), passando a respectiva `category`. Quando não especificada, a `category` default é `husky`.
 
 ### Página de Foto
 
