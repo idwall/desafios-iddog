@@ -2,7 +2,7 @@
 
 ## Desafio
 
-Crie um aplicativo para Android ou iOS com as seguintes características:
+Crie um aplicativo para Android (Kotlin ou Java) ou iOS (Swift ou Object C) com as seguintes características:
 
 * Criar uma tela de login onde o usuário precisa digitar um endereço de email válido.
 * Armazene localmente o token retornado pela API no login.
