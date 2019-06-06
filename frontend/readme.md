@@ -13,9 +13,12 @@ Com este desafio, esperamos aprender os seguintes pontos sobre seu trabalho:
 ## Stack sugerida
 
 * React
-* Redux 
 * Testes
 * Linter
+
+## O que é esperado do projeto
+
+A entrega está baseada em 3 pilares, esperamos que você cumpra os requisitos funcionais descritos abaixo, escreva um Readme falando sobre o seu projeto com instruções para execução e escreva testes unitários.
 
 Você pode utilizar os plugins e packages que achar necessários para a realização do desafio.
 Sinta-se livre, também, para adicionar funcionalidades à aplicação.
