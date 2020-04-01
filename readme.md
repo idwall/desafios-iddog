@@ -19,7 +19,7 @@ Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao p
 
 ### 📃 Utilizar nossa API de cachorros :)
 
-Todos os endpoints tem como base [`https://api-iddog.idwall.co`](https://api-iddog.idwall.co) e seguem a arquitetura REST utilizando JSON.
+Todos os endpoints tem como base [`https://iddog-nrizncxqba-uc.a.run.app`](https://iddog-nrizncxqba-uc.a.run.app) e seguem a arquitetura REST utilizando JSON.
 
 Todas as requisições devem ser encoded com Content-Type: application/json header. Pra todas as responses, incluindo erros, devem também utilizar REST com JSON.
 
@@ -46,7 +46,7 @@ GET /feed
 ```
 
 ```bash
-curl "https://api-iddog.idwall.co/feed" \
+curl "https://iddog-nrizncxqba-uc.a.run.app/feed" \
 -H "Authorization: $TOKEN" \
 -H "Content-Type: application/json"
 ```
