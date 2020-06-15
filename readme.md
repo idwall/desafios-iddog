@@ -32,7 +32,7 @@ POST /signup
 ```
 
 ```bash
-curl "https://api-iddog.idwall.co/signup" \
+curl "https://iddog-nrizncxqba-uc.a.run.app/signup" \
 -H "Content-Type: application/json" \
 -d '{ "email": "your@email.com" }'
 ```
